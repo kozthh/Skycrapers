@@ -3,6 +3,7 @@ This day I ----- and wish to understand more about ---- date
 
 Repo or other studies
 
+This day I just fixed some files in my repositories and not able to study because I have sore wisdomtooth and wish to understand more about the inheritance I will be recalling it 7/2/2026
 
 Encapsulation 
 this day i learned in encapsulation that you can put validation in constructor 6/27/2026
@@ -13,3 +14,7 @@ this day I learned that getter and setter are important and we should know when 
 Inheritance 
 this day I only fixed some issues in this repo and started studying Inheritance so I can begin doing project 6/31/2026
 this day i am recalling my logic and started making simple project and trying myself to get comfortable coding with inheritance 7/1/2026
+
+Constructors
+
+This day I learned and recall the basics of having a constructor what is it for and why is it important and wish to understand more about passing data and stroing it and studying validation and exceptions 7/3/2026

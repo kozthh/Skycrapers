@@ -1,17 +1,25 @@
-package services;
-import entity.entity;
-import java.util.ArrayList;
-public class GradeCalculator {
+package entities;
 
-entity student;
+class GradeCalculator {
+    private final Student student;
 
-for (Double grade : student.getStudentGrade()) {
-    double sum = 0;
-    for ( double g: student.getStudentGrade()) {
-        sum += g;
+    GradeCalculator(Student student) {
+        this.student = student;
     }
-    double average = sum / student.getStudentGrade().size();
-    System.out.println("Average Grade: " + average);
 
-}
+    void calculateAverage() {
+        double sum = 0;
+
+        for (double grade : student.getStudentGrade()) {
+            sum += grade;
+        }
+
+        if (student.getStudentGrade().isEmpty()) {
+            System.out.println("Average Grade: N/A");
+            return;
+        }
+
+        double average = sum / student.getStudentGrade().size();
+        System.out.println("Average Grade: " + average);
+    }
 }

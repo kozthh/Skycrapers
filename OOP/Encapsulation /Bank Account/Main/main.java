@@ -1,12 +1,11 @@
-package Main;
+package Vault;
 
 import java.util.Scanner;
-import Vault.account;
 
 class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        boolean exit = true;
+
         System.out.print("Please enter your name: ");
         String name = sc.nextLine();
 
@@ -16,10 +15,10 @@ class Main {
 
         account acc = new account(name, id);
 
-        while(true) {
-            System.out.print("1. Deposit \n 2. View \n 3. Withdraw \n 4.Quit");
+        boolean exit = false;
+        while (!exit) {
+            System.out.print("1. Deposit \n 2. View \n 3. Withdraw \n 4. Quit\n");
             int choice = sc.nextInt();
-
 
             switch (choice) {
                 case 1:
@@ -32,7 +31,6 @@ class Main {
 
                 case 2:
                     System.out.print("your balance is " + acc.getBalance());
-
                     break;
 
                 case 3:
@@ -44,15 +42,14 @@ class Main {
 
                 case 4:
                     System.out.println("bye");
-                    exit = false;
-                        break;
+                    exit = true;
+                    break;
 
-                default: System.out.println("invalid choice");
+                default:
+                    System.out.println("invalid choice");
             }
         }
 
-
-
-
+        sc.close();
     }
 }

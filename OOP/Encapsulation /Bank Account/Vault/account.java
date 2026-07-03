@@ -1,13 +1,13 @@
 package Vault;
-public class account {
 
-    String name;
-    int Id;
-    double balance;
+class account {
+    private String name;
+    private int id;
+    private double balance;
 
-    account(String name, int Id) {
+    account(String name, int id) {
         this.name = name;
-        this.Id = Id;
+        this.id = id;
         this.balance = 0.0;
     }
 
@@ -16,23 +16,22 @@ public class account {
     }
 
     int getId() {
-        return Id;
+        return id;
     }
 
     double getBalance() {
         return balance;
     }
 
-    void deposit(double balance) {
-        this.balance += balance;
+    void deposit(double amount) {
+        this.balance += amount;
     }
 
-    void withdraw(double balance) {
-        if (this.balance >= balance) {
-            this.balance -= balance;
-        }  else {throw new IllegalArgumentException("Insufficient balance");}
-
+    void withdraw(double amount) {
+        if (this.balance >= amount) {
+            this.balance -= amount;
+        } else {
+            throw new IllegalArgumentException("Insufficient balance");
+        }
     }
-
-
 }

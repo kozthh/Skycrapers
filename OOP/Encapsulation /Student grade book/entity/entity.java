@@ -1,40 +1,39 @@
-package entity;
-import arraylist;
-class entity { 
+package entities;
 
-private String Student name; 
-private int Student ID;
-private ArrayList<Double> Student grade;
+import java.util.ArrayList;
 
+class Student {
+    private String studentName;
+    private int studentID;
+    private ArrayList<Double> studentGrades;
 
-public entity(String studentName, int studentID, ArrayList<Double> studentGrade) {
-    this.Student name = studentName;
-    this.Student ID = studentID;
-    this.Student grade = studentGrade;
-}
+    Student(String studentName, int studentID, ArrayList<Double> studentGrades) {
+        this.studentName = studentName;
+        this.studentID = studentID;
+        this.studentGrades = studentGrades;
+    }
 
-public String getStudentName() {
-    return Student name;
-}
+    String getStudentName() {
+        return studentName;
+    }
 
-public void setStudentName(String studentName) {
-    this.Student name = studentName;
-}
+    void setStudentName(String studentName) {
+        this.studentName = studentName;
+    }
 
-public int getStudentID() {
-    return Student ID;
-}
+    int getStudentID() {
+        return studentID;
+    }
 
-public void setStudentID(int studentID) {
-    this.Student ID = studentID;
-}
+    void setStudentID(int studentID) {
+        this.studentID = studentID;
+    }
 
-public ArrayList<Double> getStudentGrade() {
-    return Student grade;
-}
+    ArrayList<Double> getStudentGrade() {
+        return studentGrades;
+    }
 
-public void setStudentGrade(ArrayList<Double> studentGrade) {
-    this.Student grade = studentGrade;
-}
-
+    void setStudentGrade(ArrayList<Double> studentGrades) {
+        this.studentGrades = studentGrades;
+    }
 }

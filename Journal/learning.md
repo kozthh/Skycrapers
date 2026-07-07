@@ -15,8 +15,13 @@ Inheritance
 this day I only fixed some issues in this repo and started studying Inheritance so I can begin doing project 6/31/2026
 this day i am recalling my logic and started making simple project and trying myself to get comfortable coding with inheritance 7/1/2026
 
+today I learned about the use and logic of dynamic binding in terms of overriding methods to use and construct something for example tonight I created an emplyee paycheck system by dynamic binding 7/6/2026
+
+Tonight I will be learning and tryna be comfortable with inheritance with my last project which is the car dealership 7/7/2026
+
 Constructors
 
 This day I learned and recall the basics of having a constructor what is it for and why is it important and wish to understand more about passing data and stroing it and studying validation and exceptions 7/3/2026
 
 This day I learned to use overload constructors and practicing them and applying single responsibility in classes and also still applies the inheritance with a little bit of composition and wish to understand more about deep in constructor how it passes the data through classes tho i am starting to understand it more and need more practice date 7/4/2026
+

@@ -4,7 +4,7 @@ class brv extends cross {
 	private String transmissionType;
 
 	public brv(String color, int price, int horsepower, int wheelSize, String transmissionType) throws InvalidPriceException {
-		super(color, "BRV", price);
+		super(color, "BRV", 1300000);
 		this.horsepower = horsepower;
 		this.wheelSize = wheelSize;
 		this.transmissionType = transmissionType;
@@ -20,5 +20,14 @@ class brv extends cross {
 
 	public String getTransmissionType() {
 		return transmissionType;
+	}
+
+	@Override
+	public void displayInfo() {
+		System.out.println("BRV:");
+		super.displayInfo();
+		System.out.println("Horsepower: " + horsepower);
+		System.out.println("Wheel Size: " + wheelSize);
+		System.out.println("Transmission Type: " + transmissionType);
 	}
 }

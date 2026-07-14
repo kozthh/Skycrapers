@@ -4,7 +4,7 @@ class xpander extends cross {
 	private String transmissionType;
 
 	public xpander(String color, int price, int horsepower, int wheelSize, String transmissionType) throws InvalidPriceException {
-		super(color, "Xpander", price);
+		super(color, "Xpander", 1200000);
 		this.horsepower = horsepower;
 		this.wheelSize = wheelSize;
 		this.transmissionType = transmissionType;
@@ -20,5 +20,14 @@ class xpander extends cross {
 
 	public String getTransmissionType() {
 		return transmissionType;
+	}
+
+	@Override
+	public void displayInfo() {
+		System.out.println("Xpander:");
+		super.displayInfo();
+		System.out.println("Horsepower: " + horsepower);
+		System.out.println("Wheel Size: " + wheelSize);
+		System.out.println("Transmission Type: " + transmissionType);
 	}
 }

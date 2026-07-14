@@ -34,7 +34,8 @@ public class dealaership {
                     case 1:
                         try {
                             city cityCar = new city("Red", "2026", 950000, 150, 16, "Automatic");
-                            System.out.println("City Car: " + cityCar);
+                            System.out.println("City Car:");
+                            cityCar.displayInfo();
                         } catch (InvalidPriceException e) {
                             System.out.println(e.getMessage());
                         }
@@ -42,7 +43,8 @@ public class dealaership {
                     case 2:
                         try {
                             vios viosCar = new vios("Blue", "2026", 900000, "Vios", 140, 15, "Manual");
-                            System.out.println("Vios Car: " + viosCar);
+                            System.out.println("Vios Car:");
+                            viosCar.displayInfo();
                         } catch (InvalidPriceException e) {
                             System.out.println(e.getMessage());
                         }
@@ -50,7 +52,8 @@ public class dealaership {
                     case 3:
                         try {
                             mirrage mirrageCar = new mirrage("Black", "2026", 800000, "Mirrage", 130, 14, "Automatic");
-                            System.out.println("Mirrage Car: " + mirrageCar);
+                            System.out.println("Mirrage Car:");
+                            mirrageCar.displayInfo();
                         } catch (InvalidPriceException e) {
                             System.out.println(e.getMessage());
                         }
@@ -73,7 +76,8 @@ public class dealaership {
                     case 1:
                         try {
                             Fortuner fortunerCar = new Fortuner("White", "2026", 8000000, "Fortuner", 200, 18, "Automatic", "Diesel");
-                            System.out.println("Fortuner Car: " + fortunerCar);
+                            System.out.println("Fortuner Car:");
+                            fortunerCar.displayInfo();
                         } catch (InvalidPriceException e) {
                             System.out.println(e.getMessage());
                         }
@@ -81,7 +85,8 @@ public class dealaership {
                     case 2:
                         try {
                             Everest everestCar = new Everest("Silver", "2026", 8000000, "Everest", 220, 20, "Automatic", "Diesel");
-                            System.out.println("Everest Car: " + everestCar);
+                            System.out.println("Everest Car:");
+                            everestCar.displayInfo();
                         } catch (InvalidPriceException e) {
                             System.out.println(e.getMessage());
                         }
@@ -89,7 +94,8 @@ public class dealaership {
                     case 3:
                         try {
                             Landcruiser landcruiserCar = new Landcruiser("Black", "2026", 10000000, "Landcruiser", 250, 22, "Automatic", "Diesel");
-                            System.out.println("Landcruiser Car: " + landcruiserCar);
+                            System.out.println("Landcruiser Car:");
+                            landcruiserCar.displayInfo();
                         } catch (InvalidPriceException e) {
                             System.out.println(e.getMessage());
                         }

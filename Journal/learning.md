@@ -5,6 +5,11 @@ Repo or other studies
 
 This day I just fixed some files in my repositories and not able to study because I have sore wisdomtooth and wish to understand more about the inheritance I will be recalling it 7/2/2026
 
+Abstractions 
+today I made a simple abstraction project where it include payment methods of a parking lot and also add some notifications but still in progress and to be polish 7/16/2026
+
+
+
 Encapsulation 
 this day i learned in encapsulation that you can put validation in constructor 6/27/2026
 This day I learned about the access modifiers and when to use them 6/28/2026

@@ -7,6 +7,7 @@ public class mode {
         gcash gcash = new gcash();
         maya maya = new maya();
         uniondigital uniondigital = new uniondigital();
+        cash cash = new cash();
 
         switch (type) {
             case "gcash": new gcash();
@@ -18,6 +19,9 @@ public class mode {
             case "uniondigital": new uniondigital();
             uniondigital.pay(amount);
                 break;
+            case "cash": new cash();
+            cash.pay(amount);
+            break;
         }
 
     }

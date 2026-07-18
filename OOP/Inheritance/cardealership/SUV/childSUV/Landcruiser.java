@@ -1,5 +1,8 @@
 package childSUV;
+
+import parentcrossover.InvalidPriceException;
 import parentsuv.suv;
+
 public class Landcruiser extends suv {
     private int horsepower;
     private int wheelSize;
@@ -8,7 +11,7 @@ public class Landcruiser extends suv {
 
 
     public Landcruiser(String color, String yearmodel, int price, String model, int horsepower, int wheelSize, String transmissionType, String GasType) throws InvalidPriceException {
-        super(color, 2026, 8000000, "Landcruiser");
+        super(color, yearmodel, price, model);
         this.horsepower = horsepower;
         this.wheelSize = wheelSize;
         this.transmissionType = transmissionType;

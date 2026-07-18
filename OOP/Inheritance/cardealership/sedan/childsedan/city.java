@@ -1,12 +1,15 @@
-import parentsedan.sedan;
 package childsedan;
+
+import parentcrossover.InvalidPriceException;
+import parentsedan.sedan;
+
 public class city extends sedan {
     private int horsepower;
     private int wheelSize;
     private String transmissionType;
 
     public city(String color, String yearmodel, int price, int horsepower, int wheelSize, String transmissionType) throws InvalidPriceException {
-        super(color, "2026", 950000, "City");
+        super(color, yearmodel, price, "City");
         this.horsepower = horsepower;
         this.wheelSize = wheelSize;
         this.transmissionType = transmissionType;

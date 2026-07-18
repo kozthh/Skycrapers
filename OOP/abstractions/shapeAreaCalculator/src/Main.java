@@ -1,10 +1,7 @@
 import java.util.Scanner;
 
-import ruler.shaperuler;
-import shapes.circle;
-import shapes.square;
-import shapes.triangle;
 import shapes.options;
+
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -26,5 +23,6 @@ public class Main {
             options shapeOptions = new options(scanner, choice);
 
         }
+        scanner.close();
     }
 }

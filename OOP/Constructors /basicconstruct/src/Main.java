@@ -9,7 +9,7 @@ import Banker.checkerbalance;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        bop bank;
+        bop bank = null;
         boolean exit = true;
 
         while (exit) {
@@ -29,8 +29,8 @@ public class Main {
                     } else {
                         System.out.print("Enter deposit amount: ");
                         double amt = sc.nextDouble();
-                        deposit dep = new deposit(amt);
-                        // If deposit should apply to `bank`, update deposit/Bank methods accordingly
+                        deposit dep = new deposit(bank.getName(), bank.getBalance());
+                        bank.setBalance(dep.deposit(amt));
                     }
 
                     break;
@@ -41,7 +41,9 @@ public class Main {
                     } else {
                         System.out.print("Enter withdrawal amount: ");
                         double amt = sc.nextDouble();
-                        withraw with = new withraw(amt);
+                        withraw with = new withraw(bank.getName(), bank.getBalance());
+                        with.withdraw(amt);
+                        bank.setBalance(with.getBalance());
                     }
                     break;
 
@@ -64,6 +66,5 @@ public class Main {
 
             }
         }
-
     }
 }

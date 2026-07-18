@@ -1,10 +1,15 @@
-class xpander extends cross {
+package parentcrossover.models;
+
+import parentcrossover.InvalidPriceException;
+import parentcrossover.cross;
+
+public class xpander extends cross {
 	private int horsepower;
 	private int wheelSize;
 	private String transmissionType;
 
 	public xpander(String color, int price, int horsepower, int wheelSize, String transmissionType) throws InvalidPriceException {
-		super(color, "Xpander", 1200000);
+		super(color, "Xpander", price);
 		this.horsepower = horsepower;
 		this.wheelSize = wheelSize;
 		this.transmissionType = transmissionType;

@@ -1,4 +1,6 @@
-class cross {
+package parentcrossover;
+
+public class cross {
     private String color;
     private String model;
     private int price;
@@ -41,5 +43,11 @@ class cross {
     public void setPrice(int price) throws InvalidPriceException {
         validatePrice(price);
         this.price = price;
+    }
+
+    public void displayInfo() {
+        System.out.println("Color: " + color);
+        System.out.println("Model: " + model);
+        System.out.println("Price: " + price);
     }
 }

@@ -3,26 +3,21 @@ package payments;
 public class mode {
 
     public void payment(String type, double amount) {
-
-        gcash gcash = new gcash();
-        maya maya = new maya();
-        uniondigital uniondigital = new uniondigital();
-        cash cash = new cash();
-
         switch (type) {
-            case "gcash": new gcash();
-            gcash.pay(amount);
+            case "gcash":
+                new gcash().pay(amount);
                 break;
-            case "maya": new  maya();
-            maya.pay(amount);
+            case "maya":
+                new maya().pay(amount);
                 break;
-            case "uniondigital": new uniondigital();
-            uniondigital.pay(amount);
+            case "uniondigital":
+                new uniondigital().pay(amount);
                 break;
-            case "cash": new cash();
-            cash.pay(amount);
-            break;
+            case "cash":
+                new cash().pay(amount);
+                break;
+            default:
+                System.out.println("Unsupported payment type: " + type);
         }
-
     }
 }

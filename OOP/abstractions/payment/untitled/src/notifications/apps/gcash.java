@@ -3,7 +3,7 @@ import notifications.absrule.rule;
 
 public class gcash extends rule {
     @Override
-    public void paidnotifacations() {
+    public void paidNotifications() {
         System.out.print("your gcash payment is successful");
     }
 }

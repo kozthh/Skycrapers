@@ -34,3 +34,19 @@ This day I learned and recall the basics of having a constructor what is it for 
 
 This day I learned to use overload constructors and practicing them and applying single responsibility in classes and also still applies the inheritance with a little bit of composition and wish to understand more about deep in constructor how it passes the data through classes tho i am starting to understand it more and need more practice date 7/4/2026
 
+Bug and Fixes
+
+Major fixes
+I cleaned the OOP examples by fixing class and file naming mismatches, package placement issues, and shared inheritance structure problems so the examples are easier to follow and more consistent.
+I added the missing parent classes for the car dealership example, renamed the public Fortuner file to match its class name, and moved the shared dealership exception into a proper package.
+I also standardized the paycheck method naming in the inheritance payroll example and updated the callers to use the corrected method name.
+I simplified the payment abstraction flow by cleaning the switch logic, removing unused variables, and making the notification method names consistent.
+
+Minor fixes
+I removed duplicate or unused imports and cleaned up example code that was only creating objects without using them.
+I added default messages for unsupported payment types and unknown app selections so the examples behave more clearly.
+I fixed the constructor example so deposit and withdrawal use the current account balance correctly instead of drifting from the actual account state.
+I also cleaned formatting and whitespace so the journal and example code are easier to read.
+
+7/18/2026
+

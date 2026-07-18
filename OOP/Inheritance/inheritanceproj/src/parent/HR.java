@@ -22,7 +22,7 @@ public class HR {
         this.position = position;
     }
 
-    public double calculatePayheck() {
+    public double calculatePayCheck() {
         return getBasePay() + getBonus() - getTax();
     }
 

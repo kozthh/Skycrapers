@@ -1,12 +1,11 @@
 package shapes;
-import shapes.*;
 import java.util.Scanner;
+
 public class options {
 
         circle circle;
         square square;
         triangle triangle;
-        Scanner in = new Scanner(System.in);
 
         public options(Scanner in, int choice) {
             switch (choice) {

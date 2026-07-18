@@ -1,12 +1,12 @@
-package parentsedan;
+package parentsuv;
 
-public class sedan {
+public class suv {
     private final String color;
     private final String yearModel;
     private final int price;
     private final String model;
 
-    public sedan(String color, String yearModel, int price, String model) {
+    public suv(String color, String yearModel, int price, String model) {
         this.color = color;
         this.yearModel = yearModel;
         this.price = price;

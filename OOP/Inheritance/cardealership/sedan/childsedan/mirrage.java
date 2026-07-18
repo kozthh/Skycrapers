@@ -1,12 +1,15 @@
-import parentsedan.sedan; 
 package childsedan;
+
+import parentcrossover.InvalidPriceException;
+import parentsedan.sedan;
+
 public class mirrage extends sedan {
     private int horsepower;
     private int wheelSize;
     private String transmissionType;
 
     public mirrage(String color, String yearmodel, int price, String model, int horsepower, int wheelSize, String transmissionType) throws InvalidPriceException {
-        super(color, 2026, 800000, "mirrage");
+        super(color, yearmodel, price, model);
         this.horsepower = horsepower;
         this.wheelSize = wheelSize;
         this.transmissionType = transmissionType;

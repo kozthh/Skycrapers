@@ -48,5 +48,6 @@ I added default messages for unsupported payment types and unknown app selection
 I fixed the constructor example so deposit and withdrawal use the current account balance correctly instead of drifting from the actual account state.
 I also cleaned formatting and whitespace so the journal and example code are easier to read.
 
-7/18/2026
+Polymorphism
+This day I learned how polymorphism allows different classes to share a common behavior through overriding and dynamic method binding, and wish to understand more about applying it in bigger projects 7/20/2026
 

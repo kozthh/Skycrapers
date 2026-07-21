@@ -5,6 +5,8 @@ Repo or other studies
 
 This day I just fixed some files in my repositories and not able to study because I have sore wisdomtooth and wish to understand more about the inheritance I will be recalling it 7/2/2026
 
+tonight i will just fix my scheddule and resched my time for programming i can't do it at night anymore i'll find another time during the day 7/21/2026
+
 Abstractions 
 today I made a simple abstraction project where it include payment methods of a parking lot and also add some notifications but still in progress and to be polish 7/16/2026
 

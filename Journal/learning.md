@@ -8,6 +8,7 @@ This day I just fixed some files in my repositories and not able to study becaus
 tonight i will just fix my scheddule and resched my time for programming i can't do it at night anymore i'll find another time during the day 7/21/2026
 
 this day I did a research in Computer Science and revise the full stack study plan included all to be job ready 7/24/2026 
+I am studying egames today I learned the fundamentals of egames design 7/25/2026
 
 Abstractions 
 today I made a simple abstraction project where it include payment methods of a parking lot and also add some notifications but still in progress and to be polish 7/16/2026

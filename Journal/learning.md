@@ -1,58 +1,149 @@
-template
-This day I ----- and wish to understand more about ---- date
 
-Repo or other studies
+# Learning Journal — Aligned to Fullstack Roadmap
 
-This day I just fixed some files in my repositories and not able to study because I have sore wisdomtooth and wish to understand more about the inheritance I will be recalling it 7/2/2026
+This journal is reorganized to match the sections in `Fullstack.md`. Entries below are grouped under the roadmap phases; at the end is a list of topics not yet visited so you can prioritize next steps.
 
-tonight i will just fix my scheddule and resched my time for programming i can't do it at night anymore i'll find another time during the day 7/21/2026
+## H1 Design Examples
+Below are several heading (H1) design options you can use in this file — copy the variant you like.
 
-this day I did a research in Computer Science and revise the full stack study plan included all to be job ready 7/24/2026 
-I am studying egames today I learned the fundamentals of egames design 7/25/2026
+1) Simple Markdown H1
 
-Abstractions 
-today I made a simple abstraction project where it include payment methods of a parking lot and also add some notifications but still in progress and to be polish 7/16/2026
+```
+# Learning Journal
+```
+
+2) Setext underline (large)
+
+```
+Learning Journal
+===============
+```
+
+3) Decorative emoji H1
+
+```
+# ✨ Learning Journal ✨
+```
+
+4) ASCII banner (simple)
+
+```
+===========================
+	LEARNING JOURNAL
+===========================
+```
+
+5) Centered HTML H1
+
+```
+<h1 style="text-align:center">Learning Journal</h1>
+```
+
+6) Styled HTML + CSS (for rendered MD viewers that allow HTML)
+
+```
+<h1 class="fancy">Learning Journal</h1>
+<style>
+.fancy{font-family: 'Segoe UI', Arial, sans-serif; color:#1f6feb; text-shadow:0 1px 0 rgba(0,0,0,0.08);}
+</style>
+```
+
+---
 
 
+## Tech Stack (from Fullstack roadmap)
+- Java
+- Spring Boot
+- JWT / Authentication
+- REST APIs / GraphQL
+- HTML / CSS / JavaScript / TypeScript / React
+- PostgreSQL / MongoDB / JPA / Hibernate
+- Tools: Git, Maven, Gradle, Docker, IntelliJ, VS Code
 
-Encapsulation 
-this day i learned in encapsulation that you can put validation in constructor 6/27/2026
-This day I learned about the access modifiers and when to use them 6/28/2026
-this day I learned that getter and setter are important and we should know when to use it like setter should be use in some cases that is fied like ID 6/30/2026
+---
 
+## Phase 0 — Java Foundations
+- (No dedicated entries yet) — plan: practice syntax, methods, compilation, small exercises.
 
-Inheritance 
-this day I only fixed some issues in this repo and started studying Inheritance so I can begin doing project 6/31/2026
-this day i am recalling my logic and started making simple project and trying myself to get comfortable coding with inheritance 7/1/2026
+---
 
-this day i am planning and constructing in my mind what i am going to do with cardealership 7/13/2026
-this day i am having more understanding about instantiation and inish a small project 7/14/2026
+## Git & GitHub Essentials
+- Notes: repo fixes were performed (see Bug & Fixes below). Consider adding explicit Git practice entries (branches, PRs, rebasing).
 
+---
 
-today I learned about the use and logic of dynamic binding in terms of overriding methods to use and construct something for example tonight I created an emplyee paycheck system by dynamic binding 7/6/2026
+## Phase 1 — Object-Oriented Programming (Journal Entries)
 
-Tonight I will be learning and tryna be comfortable with inheritance with my last project which is the car dealership 7/7/2026
+### Abstractions
+- 7/16/2026: Built a simple abstraction project for parking lot payment methods and added notifications; work in progress to polish behavior and naming.
 
-Constructors
+### Encapsulation
+- 6/27/2026: Practiced using validation inside constructors.
+- 6/28/2026: Studied access modifiers and when to use them.
+- 6/30/2026: Learned appropriate uses for getters and setters; noted when setters are unnecessary (e.g., immutable IDs).
 
-This day I learned and recall the basics of having a constructor what is it for and why is it important and wish to understand more about passing data and stroing it and studying validation and exceptions 7/3/2026
+### Inheritance
+- 6/31/2026: Fixed repo issues and started studying inheritance to prepare for projects.
+- 7/1/2026: Recalled object-oriented logic and built a small inheritance practice project to gain comfort.
+- 7/6/2026: Implemented dynamic binding in an employee paycheck example (method overriding).
+- 7/7/2026: Planned to apply inheritance to the car dealership project.
+- 7/13–7/14/2026: Designed and instantiated classes for the car dealership example; resolved instantiation details.
 
-This day I learned to use overload constructors and practicing them and applying single responsibility in classes and also still applies the inheritance with a little bit of composition and wish to understand more about deep in constructor how it passes the data through classes tho i am starting to understand it more and need more practice date 7/4/2026
+### Constructors
+- 7/3/2026: Reviewed constructor basics, data passing, validation, and exceptions.
+- 7/4/2026: Practiced overloaded constructors and single-responsibility patterns; explored how data flows through composed objects.
 
-Bug and Fixes
+### Polymorphism
+- 7/20/2026: Studied polymorphism and dynamic method binding; want to apply this in larger projects.
 
-Major fixes
-I cleaned the OOP examples by fixing class and file naming mismatches, package placement issues, and shared inheritance structure problems so the examples are easier to follow and more consistent.
-I added the missing parent classes for the car dealership example, renamed the public Fortuner file to match its class name, and moved the shared dealership exception into a proper package.
-I also standardized the paycheck method naming in the inheritance payroll example and updated the callers to use the corrected method name.
-I simplified the payment abstraction flow by cleaning the switch logic, removing unused variables, and making the notification method names consistent.
+### Bug & Fixes (Repo maintenance)
+- Major: Fixed class/file naming mismatches, package placement, added missing parent classes for the car dealership, renamed files to match public classes, moved shared exceptions into packages, standardized payroll method names, simplified payment abstraction logic.
+- Minor: Removed duplicate/unused imports, added default messages for unsupported payment types, fixed constructor logic for deposit/withdrawal to use current balance, and cleaned formatting/whitespace.
 
-Minor fixes
-I removed duplicate or unused imports and cleaned up example code that was only creating objects without using them.
-I added default messages for unsupported payment types and unknown app selections so the examples behave more clearly.
-I fixed the constructor example so deposit and withdrawal use the current account balance correctly instead of drifting from the actual account state.
-I also cleaned formatting and whitespace so the journal and example code are easier to read.
+---
 
-Polymorphism
-This day I learned how polymorphism allows different classes to share a common behavior through overriding and dynamic method binding, and wish to understand more about applying it in bigger projects 7/20/2026
+## Phase 2 — Core Java Toolkit
+- (No entries yet) — suggested practice: Collections, Generics, Streams, File I/O, JDBC, Maven/Gradle, JUnit, Mockito, Logging, Concurrency.
+
+## Phase 3 — Spring Boot & APIs
+- (No entries yet) — suggested: Spring Boot, DI, REST APIs, GraphQL, Validation, JWT, Testing.
+
+## Phase 4 — Databases
+- (No entries yet) — suggested: PostgreSQL, MongoDB, JPA/Hibernate, Transactions, Indexing, Flyway.
+
+## Phase 5 — Frontend Foundations
+- (No entries yet) — suggested: HTML, CSS, Bootstrap/Tailwind, JavaScript, TypeScript.
+
+## Phase 6 — React Development
+- (No entries yet) — suggested: React, Router, Context, Axios, Auth, API integration, deployment.
+
+## Phase 7 — Third-Party Integrations
+- (No entries yet) — suggested: Stripe, PayMongo, Google OAuth, SendGrid, Cloudinary, Maps API, OpenAI API.
+
+## Phase 8 — Data Structures & Algorithms
+- (No entries yet) — suggested: Arrays, Linked Lists, Trees, Graphs, Hash Tables, Sorting, Dynamic Programming.
+
+## Phase 9 — Career Preparation
+- (No entries yet) — suggested: System Design basics, OWASP security, resume & portfolio, interview prep, LeetCode.
+
+---
+
+## Topics Not Yet Visited (prioritized)
+- Spring Boot & Dependency Injection
+- REST APIs, GraphQL, and API validation
+- JWT Authentication and Security flows
+- Core Java toolkit: Collections, Streams, Concurrency
+- Build tools & testing: Maven/Gradle, JUnit, Mockito
+- Databases: PostgreSQL, MongoDB, JPA/Hibernate
+- Frontend: HTML/CSS/JavaScript/TypeScript fundamentals
+- React & related ecosystem
+- Docker, CI/CD, Deployment
+- Data Structures & Algorithms (DSA)
+- System Design basics and interview prep
+
+---
+
+## Next Steps
+- Start Phase 2 (Core Java) or Git & GitHub exercises. Tell me which you prefer and I will create a study checklist and a few concrete practice tasks.
+
 

@@ -1,6 +1,6 @@
 # Topics
 
-This folder keeps the study plan organized by roadmap phase.
+This folder keeps the study plan organized by roadmap phase and the matching PDF study tracks.
 
 - [01 Java Foundations](01-java-foundations/README.md)
 - [02 Git and GitHub](02-git-and-github/README.md)

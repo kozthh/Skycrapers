@@ -20,9 +20,13 @@ Detailed 30-day trackers are available inside each PDF folder:
 - Backend: [30-day-plan.md](ShopFlow_PartA_Backend_Engineering_WorldClass_Edition/30-day-plan.md)
 - Frontend: [30-day-plan.md](ShopFlow_PartB_Frontend_Engineering_2026/30-day-plan.md)
 - Deployment: [30-day-plan.md](ShopFlow_PartC_Deployment_Cloud_Integrations_v3/30-day-plan.md)
+- DSA: [30-day-plan.md](Part_D_DSA_Curriculum_Integrated/30-day-plan.md)
+- Career: [30-day-plan.md](ShopFlow_PartE_Career_Interview_Readiness_v2/30-day-plan.md)
 
 Printable checklists are also available in each folder:
 - Foundations: [printable-checklist.md](ShopFlow_Part0_Foundations_Revised/printable-checklist.md)
 - Backend: [printable-checklist.md](ShopFlow_PartA_Backend_Engineering_WorldClass_Edition/printable-checklist.md)
 - Frontend: [printable-checklist.md](ShopFlow_PartB_Frontend_Engineering_2026/printable-checklist.md)
 - Deployment: [printable-checklist.md](ShopFlow_PartC_Deployment_Cloud_Integrations_v3/printable-checklist.md)
+- DSA: [printable-checklist.md](Part_D_DSA_Curriculum_Integrated/printable-checklist.md)
+- Career: [printable-checklist.md](ShopFlow_PartE_Career_Interview_Readiness_v2/printable-checklist.md)

@@ -30,3 +30,7 @@ Printable checklists are also available in each folder:
 - Deployment: [printable-checklist.md](ShopFlow_PartC_Deployment_Cloud_Integrations_v3/printable-checklist.md)
 - DSA: [printable-checklist.md](Part_D_DSA_Curriculum_Integrated/printable-checklist.md)
 - Career: [printable-checklist.md](ShopFlow_PartE_Career_Interview_Readiness_v2/printable-checklist.md)
+
+Topic alignment:
+- [01 Java Foundations](../../topics/01-java-foundations/README.md), [02 Git and GitHub](../../topics/02-git-and-github/README.md), [03 OOP](../../topics/03-oop/README.md), and [04 Core Java Toolkit](../../topics/04-core-java-toolkit/README.md) align with [Foundations](ShopFlow_Part0_Foundations_Revised/30-day-plan.md).
+- [05 Spring Boot and APIs](../../topics/05-spring-boot-and-apis/README.md) and [06 Databases](../../topics/06-databases/README.md) align with [Backend](ShopFlow_PartA_Backend_Engineering_WorldClass_Edition/30-day-plan.md).

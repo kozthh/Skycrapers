@@ -62,6 +62,25 @@ Learning Journal
 
 ---
 
+## Recent Work Log
+
+### 7/31/2026
+- Reviewed the study-plan layout and checked how the PDF folders map to the roadmap.
+- Added detailed study plans for Part D DSA and Part E Career Interview Readiness.
+- Started aligning the study-plan index so each PDF has a matching 30-day tracker and checklist.
+
+### 8/1/2026
+- Updated the frontend study-plan folder to match the new Frontend Engineering and Audit PDF.
+- Renamed the frontend plan structure to include audit and review habits, not just UI building.
+- Verified the new frontend study-plan files and cleaned up the folder naming so it matches the new PDF title.
+
+### 8/2/2026
+- Expanded the Topics section into detailed subfolders so the roadmap phases are no longer flat.
+- Added subtopic READMEs for Java, Git, OOP, core Java, Spring, databases, frontend, React, integrations, DSA, career prep, and the capstone.
+- Aligned the topic pages with the PDF study tracks and validated the structure with a diff check.
+
+---
+
 ## Phase 0 — Java Foundations
 - (No dedicated entries yet) — plan: practice syntax, methods, compilation, small exercises.
 

@@ -79,6 +79,11 @@ Learning Journal
 - Added subtopic READMEs for Java, Git, OOP, core Java, Spring, databases, frontend, React, integrations, DSA, career prep, and the capstone.
 - Aligned the topic pages with the PDF study tracks and validated the structure with a diff check.
 
+### 8/3/2026
+- Practiced terminal commands and reviewed the basics of command-line fundamentals.
+- Installed WSL and set up the environment for further learning.
+- Plan to continue studying Linux commands and Java compilation through the terminal.
+
 ---
 
 ## Phase 0 — Java Foundations

@@ -84,6 +84,11 @@ Learning Journal
 - Installed WSL and set up the environment for further learning.
 - Plan to continue studying Linux commands and Java compilation through the terminal.
 
+### 8/4/2026
+- Learned basic command-line navigation and file management: `cd` / `cd..`, `dir`, `mkdir`, `del`, `copy`, `move`, `type`, and `REM`.
+- Practiced output/input redirection and piping with `>`, `>>`, `<`, and `|`, plus basic permissions with `icacls`.
+- Reviewed Java CLI basics: `javac Main.java` compiles source code, `java Main` runs the class, and Java is case-sensitive (`Main` is not the same as `main`).
+
 ---
 
 ## Phase 0 — Java Foundations

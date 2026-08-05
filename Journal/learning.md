@@ -89,6 +89,31 @@ Learning Journal
 - Practiced output/input redirection and piping with `>`, `>>`, `<`, and `|`, plus basic permissions with `icacls`.
 - Reviewed Java CLI basics: `javac Main.java` compiles source code, `java Main` runs the class, and Java is case-sensitive (`Main` is not the same as `main`).
 
+### 8/5/2026
+- Reviewed files added/modified today in the workspace (notable items):
+  - `.idea/` workspace files (IDE metadata)
+  - `Skycrapers/README.md`
+  - `Skycrapers/.devcontainer/devcontainer.json`
+  - Updated PDFs and study materials in `Skycrapers/DevLessons/`:
+	- `git-cheatsheet.html`
+	- `git-cheatsheet.pdf`
+	- `Part_D_DSA_Curriculum_Integrated.pdf`
+	- `ShopFlow_PartB_Frontend_Engineering_and_Audit_2026.pdf`
+	- `ShopFlow_PartE_Career_Interview_Readiness_v2.pdf`
+  - `Skycrapers/Journal/learning.md` (this journal)
+
+- What I learned/practiced today:
+  - How to copy a repo to a local IDE: used `git clone <repo-url>` to copy the repository locally, then opened the project in IntelliJ/VS Code (File → Open / Open Folder).
+  - Useful Git commands I practiced: `git clone`, `git status`, `git branch`, `git checkout <branch>` / `git switch <branch>`, `git checkout -b <new-branch>`, `git fetch`, `git pull`, `git merge`, `git rebase` (when needed), `git add .`, `git commit -m "msg"`, and `git push`.
+  - How to update branches safely: create a topic branch (`git checkout -b feature/...`), pull latest changes from `origin` (`git fetch` + `git pull`), merge or rebase the branch onto `origin/main` to keep it up-to-date, resolve conflicts, then push back to remote.
+  - Updated several PDF study materials in `DevLessons/` — verified file names and updated the folder index where necessary.
+
+- Action items / next steps:
+  - Commit any local edits and push feature branches to the remote origin.
+  - Consider adding a short Git cheatsheet to this journal with the exact commands you use most.
+  - Review updated PDFs and note any changes to study schedules or priorities.
+
+
 ---
 
 ## Phase 0 — Java Foundations

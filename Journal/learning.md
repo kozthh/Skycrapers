@@ -89,7 +89,7 @@ Learning Journal
 - Practiced output/input redirection and piping with `>`, `>>`, `<`, and `|`, plus basic permissions with `icacls`.
 - Reviewed Java CLI basics: `javac Main.java` compiles source code, `java Main` runs the class, and Java is case-sensitive (`Main` is not the same as `main`).
 
-### 8/5/2026
+## 8/5/2026
 - Reviewed files added/modified today in the workspace (notable items):
   - `.idea/` workspace files (IDE metadata)
   - `Skycrapers/README.md`

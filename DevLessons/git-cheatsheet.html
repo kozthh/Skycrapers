@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Git Quick Reference</title>
+  <style>
+    @page { margin: 1.5cm; size: A4; }
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      font-size: 11pt;
+      line-height: 1.45;
+      color: #1a1a1a;
+      max-width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      font-size: 22pt;
+      border-bottom: 3px solid #2563eb;
+      padding-bottom: 8px;
+      margin-top: 0;
+      color: #1e40af;
+    }
+    h2 {
+      font-size: 14pt;
+      color: #1e40af;
+      margin-top: 22px;
+      border-bottom: 1px solid #cbd5e1;
+      padding-bottom: 4px;
+    }
+    h3 {
+      font-size: 12pt;
+      color: #334155;
+      margin-top: 16px;
+    }
+    code, pre {
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 9.5pt;
+    }
+    pre {
+      background: #f1f5f9;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      padding: 10px 12px;
+      overflow-x: auto;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 10px 0 16px;
+      font-size: 10pt;
+    }
+    th, td {
+      border: 1px solid #cbd5e1;
+      padding: 6px 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: #eff6ff;
+      color: #1e40af;
+      font-weight: 600;
+    }
+    tr:nth-child(even) td { background: #f8fafc; }
+    hr { border: none; border-top: 1px solid #e2e8f0; margin: 20px 0; }
+    strong { color: #0f172a; }
+    .card {
+      background: #eff6ff;
+      border: 1px solid #93c5fd;
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-top: 16px;
+    }
+    .card pre { background: #fff; margin: 0; border: none; padding: 0; }
+    p { margin: 8px 0; }
+  </style>
+</head>
+<body>
+
+<h1>Git Quick Reference — Clone, Branches &amp; Commands</h1>
+
+<h2>1. Clone a Repository</h2>
+
+<h3>Basic clone (most common)</h3>
+<pre>pwd                              # see where you are
+cd /c/Users/kenneth/Projects     # go where you want the repo
+git clone https://github.com/username/repo-name.git
+cd repo-name
+ls</pre>
+<p>Creates a folder <code>repo-name</code> with all files and history. <strong>No <code>git init</code> needed.</strong></p>
+
+<h3>Clone into a folder you already made</h3>
+<pre>mkdir my-project
+cd my-project
+git clone https://github.com/username/repo-name.git .</pre>
+<p>The <code>.</code> means "clone into this folder." Folder must be <strong>empty</strong>. Still <strong>no <code>git init</code></strong>.</p>
+
+<h3>Clone a specific branch directly</h3>
+<pre>git clone -b hello https://github.com/username/repo-name.git</pre>
+<p>Lands you on branch <code>hello</code> immediately. Branch names are <strong>case-sensitive</strong> (<code>hello</code> ≠ <code>Hello</code>).</p>
+
+<hr>
+
+<h2>2. Know Where You Are</h2>
+<table>
+  <tr><th>Command</th><th>What it does</th></tr>
+  <tr><td><code>pwd</code></td><td>Show current folder</td></tr>
+  <tr><td><code>ls</code></td><td>List files</td></tr>
+  <tr><td><code>ls -la</code></td><td>List all files including hidden (<code>.git</code>)</td></tr>
+  <tr><td><code>cd folder</code></td><td>Go into a folder</td></tr>
+  <tr><td><code>cd ..</code></td><td>Go up one level</td></tr>
+  <tr><td><code>cd ~</code></td><td>Go to home folder</td></tr>
+</table>
+<p><strong>Important:</strong> Git commands only work <strong>inside the repo folder</strong> (where <code>.git</code> exists).</p>
+<pre>Wrong:  ~/skyscraper              (parent folder, not a repo)
+Right:  ~/skyscraper/Skycrapers    (actual repo)</pre>
+<p>Error if you're in the wrong place: <code>fatal: not a git repository</code></p>
+
+<hr>
+
+<h2>3. Branches</h2>
+
+<h3>See branches</h3>
+<pre>git branch           # local branches (* = current)
+git branch -a        # local + remote branches
+git status           # shows current branch at top</pre>
+
+<h3>Switch to an existing branch (already on GitHub)</h3>
+<pre>git checkout hello
+# or
+git switch hello</pre>
+
+<h3>Create a NEW branch and switch to it</h3>
+<pre>git checkout -b my-new-branch
+# or
+git switch -c my-new-branch</pre>
+
+<h3>Push a branch to GitHub</h3>
+<pre>git push -u origin hello</pre>
+
+<hr>
+
+<h2>4. Daily Workflow</h2>
+<pre>cd /path/to/repo              # 1. go into repo
+git status                    # 2. see branch + changes
+git pull                      # 3. get latest from GitHub
+# ... edit files ...
+git add filename              # 4. stage specific file (safer)
+git commit -m "Your message"  # 5. save locally
+git push                      # 6. send to GitHub</pre>
+
+<hr>
+
+<h2>5. Git Command List</h2>
+
+<h3>Setup &amp; Clone</h3>
+<table>
+  <tr><th>Command</th><th>What it does</th></tr>
+  <tr><td><code>git --version</code></td><td>Check Git is installed</td></tr>
+  <tr><td><code>git clone &lt;url&gt;</code></td><td>Copy repo from GitHub</td></tr>
+  <tr><td><code>git clone -b &lt;branch&gt; &lt;url&gt;</code></td><td>Clone and checkout specific branch</td></tr>
+  <tr><td><code>git init</code></td><td>Create new empty repo (don't use with clone)</td></tr>
+</table>
+
+<h3>Navigation &amp; Status</h3>
+<table>
+  <tr><th>Command</th><th>What it does</th></tr>
+  <tr><td><code>pwd</code></td><td>Show current folder</td></tr>
+  <tr><td><code>git status</code></td><td>Branch, modified/staged/untracked files</td></tr>
+  <tr><td><code>git log</code></td><td>Commit history</td></tr>
+  <tr><td><code>git log --oneline</code></td><td>Short commit history</td></tr>
+  <tr><td><code>git diff</code></td><td>See unstaged changes</td></tr>
+  <tr><td><code>git diff --staged</code></td><td>See staged changes</td></tr>
+</table>
+
+<h3>Branches</h3>
+<table>
+  <tr><th>Command</th><th>What it does</th></tr>
+  <tr><td><code>git branch</code></td><td>List local branches</td></tr>
+  <tr><td><code>git branch -a</code></td><td>List all branches (local + remote)</td></tr>
+  <tr><td><code>git checkout &lt;branch&gt;</code></td><td>Switch to existing branch</td></tr>
+  <tr><td><code>git checkout -b &lt;branch&gt;</code></td><td>Create new branch and switch</td></tr>
+  <tr><td><code>git switch &lt;branch&gt;</code></td><td>Switch branch (newer syntax)</td></tr>
+  <tr><td><code>git switch -c &lt;branch&gt;</code></td><td>Create + switch (newer syntax)</td></tr>
+  <tr><td><code>git branch -d &lt;branch&gt;</code></td><td>Delete local branch</td></tr>
+</table>
+
+<h3>Save Changes</h3>
+<table>
+  <tr><th>Command</th><th>What it does</th></tr>
+  <tr><td><code>git add &lt;file&gt;</code></td><td>Stage one file</td></tr>
+  <tr><td><code>git add .</code></td><td>Stage everything (use carefully!)</td></tr>
+  <tr><td><code>git reset</code></td><td>Unstage all files</td></tr>
+  <tr><td><code>git commit -m "msg"</code></td><td>Commit staged changes</td></tr>
+  <tr><td><code>git restore &lt;file&gt;</code></td><td>Discard unstaged changes to file</td></tr>
+</table>
+
+<h3>Remote (GitHub)</h3>
+<table>
+  <tr><th>Command</th><th>What it does</th></tr>
+  <tr><td><code>git pull</code></td><td>Download + merge latest from GitHub</td></tr>
+  <tr><td><code>git push</code></td><td>Upload commits to GitHub</td></tr>
+  <tr><td><code>git push -u origin &lt;branch&gt;</code></td><td>Push new branch and set tracking</td></tr>
+  <tr><td><code>git fetch</code></td><td>Download remote info without merging</td></tr>
+  <tr><td><code>git remote -v</code></td><td>Show remote URLs</td></tr>
+</table>
+
+<hr>
+
+<h2>6. File Status Meanings</h2>
+<table>
+  <tr><th>Status</th><th>Meaning</th></tr>
+  <tr><td><strong>modified</strong></td><td>Existing file changed</td></tr>
+  <tr><td><strong>untracked</strong></td><td>New file Git doesn't track yet</td></tr>
+  <tr><td><strong>staged</strong></td><td>Ready to commit (<code>git add</code> done)</td></tr>
+  <tr><td><strong>committed</strong></td><td>Saved in Git history</td></tr>
+</table>
+<p>IDE labels: <strong>M</strong> = modified, <strong>A</strong> = added, <strong>D</strong> = deleted</p>
+
+<hr>
+
+<h2>7. Things to Avoid</h2>
+<table>
+  <tr><th>Don't</th><th>Do instead</th></tr>
+  <tr><td><code>git init</code> then <code>git clone</code></td><td>Just <code>git clone &lt;url&gt;</code></td></tr>
+  <tr><td><code>git add .</code> blindly</td><td><code>git add specific-file</code></td></tr>
+  <tr><td>Commit <code>.iml</code> / <code>.idea/</code> files</td><td>Ignore them (IntelliJ config)</td></tr>
+  <tr><td>Run git in parent folder</td><td><code>cd</code> into repo with <code>.git</code></td></tr>
+  <tr><td><code>git checkout -b hello</code> if branch exists</td><td><code>git checkout hello</code></td></tr>
+</table>
+
+<hr>
+
+<h2>8. One-Page Example (Start to Finish)</h2>
+<pre># Clone
+cd ~/Projects
+git clone -b hello https://github.com/username/Skycrapers.git
+cd Skycrapers
+
+# Check state
+pwd
+git status
+git branch
+
+# Work on a new branch
+git checkout -b my-feature
+# edit files...
+git add topics/some-file/README.md
+git commit -m "Update README"
+git push -u origin my-feature</pre>
+
+<div class="card">
+  <h2 style="margin-top:0;border:none;">Quick Reference Card</h2>
+  <pre>CLONE     git clone &lt;url&gt;
+          git clone -b &lt;branch&gt; &lt;url&gt;
+
+WHERE     pwd / cd &lt;folder&gt; / ls
+
+BRANCH    git branch
+          git checkout &lt;branch&gt;        (switch existing)
+          git checkout -b &lt;branch&gt;     (create new)
+
+WORKFLOW  git status → git add → git commit → git push</pre>
+</div>
+
+</body>
+</html>

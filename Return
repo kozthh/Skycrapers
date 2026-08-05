@@ -1,0 +1,679 @@
+[33mcommit a8526c4e851ccf86c3cf11bc1ff4d2303ebf0ba0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mcommanlines[m[33m, [m[1;31morigin/commanlines[m[33m)[m
+Author: Kenneth <kennethsaan16@gmail.com>
+Date:   Wed Aug 5 12:01:12 2026 +0800
+
+    cheatsheet
+
+[33mcommit 2ec672a65822bbc1cad8fe2bfa9a1b3e5c01611e[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Tue Aug 4 07:46:21 2026 +0000
+
+    learned pipelines directions compiling etc
+
+[33mcommit 6dad1beee08913f7a8ecec3cd12aeb0862889b33[m
+Merge: e41f4e1 d25c276
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Mon Aug 3 10:37:01 2026 +0800
+
+    Merge pull request #41 from kozthh/fix
+    
+    done
+
+[33mcommit d25c2768fdd6009221ed0b45fc15c9ed81d22edc[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Mon Aug 3 02:36:30 2026 +0000
+
+    done
+
+[33mcommit e41f4e1878cd174ff150021e7b2f38e123cbcbbc[m
+Merge: 8f816d0 c4ab68f
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sun Aug 2 20:06:53 2026 +0800
+
+    Merge pull request #40 from kozthh/fix
+    
+    journal update
+
+[33mcommit c4ab68f8fb75c283549de9addabac26db8bfd190[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sun Aug 2 12:06:14 2026 +0000
+
+    journal update
+
+[33mcommit 8f816d0052bebcc42b8676b2de81cee1696fda22[m
+Merge: 105c997 6835c48
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sun Aug 2 20:05:03 2026 +0800
+
+    Merge pull request #39 from kozthh/fix
+    
+    revised subfolders
+
+[33mcommit 6835c488cb7c5752f0bd7243157f96864b0f9a94[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sun Aug 2 12:04:03 2026 +0000
+
+    revised subfolders
+
+[33mcommit 105c99739748a7d242f0a3f02903c342a7a551fd[m
+Merge: 09c144e f925afb
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sun Aug 2 19:56:36 2026 +0800
+
+    Merge pull request #38 from kozthh/fix
+    
+    topics update
+
+[33mcommit f925afb7dfdd14cf30bdc9b1058d2aa440d81059[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sun Aug 2 11:55:44 2026 +0000
+
+    topics update
+
+[33mcommit 09c144e9eee2b2a7f11a51ab63253e0adb49641d[m
+Merge: 3891895 44f7eab
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sun Aug 2 19:38:51 2026 +0800
+
+    Merge pull request #37 from kozthh/fix
+    
+    study plans
+
+[33mcommit 44f7eab402cddbaf4f633365e43c0f80dcd72c5b[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sun Aug 2 11:37:39 2026 +0000
+
+    study plans
+
+[33mcommit 389189522c50074f9717bf39ef190bee12897fc4[m
+Merge: 09d686e 42528a2
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sun Aug 2 19:14:44 2026 +0800
+
+    Merge pull request #36 from kozthh/fix
+    
+    added d and e
+
+[33mcommit 42528a24b26a75a090f63d699bf9529b504dafdd[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sun Aug 2 11:14:16 2026 +0000
+
+    added d and e
+
+[33mcommit 09d686ed65ddf5a939606403f4fafafae60bf19a[m
+Merge: b7d02c8 1738a01
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sun Aug 2 13:44:17 2026 +0800
+
+    Merge pull request #35 from kozthh/fix
+    
+    with study plans
+
+[33mcommit 1738a011ecec73f2705351a853dd78ac8ae78243[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sun Aug 2 05:43:38 2026 +0000
+
+    with study plans
+
+[33mcommit b7d02c87debbd44144faf677fdf699072b497dc2[m
+Merge: 0c03d38 63bbd15
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sun Aug 2 13:26:11 2026 +0800
+
+    Merge pull request #34 from kozthh/kozthh-patch-1
+    
+    Add files via upload
+
+[33mcommit 63bbd15b78e3abb2d3ff5c70f1c42087102bd901[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sun Aug 2 13:25:49 2026 +0800
+
+    Add files via upload
+
+[33mcommit 0c03d38eeecc83899645d0045e409f6bce36d84e[m
+Author: Kenneth <kennethsaan16@gmail.com>
+Date:   Sun Aug 2 13:22:52 2026 +0800
+
+    ver3 phase 2
+
+[33mcommit 85d1504c67382950264f3fd93f644823f285b33b[m
+Merge: 93d71cc 6ddf9fe
+Author: Kenneth <kennethsaan16@gmail.com>
+Date:   Sat Aug 1 22:01:58 2026 +0800
+
+    ver3
+
+[33mcommit 93d71cca4c895e0ebac84eb48e016872c8d746c4[m
+Author: Kenneth <kennethsaan16@gmail.com>
+Date:   Sat Aug 1 22:00:48 2026 +0800
+
+    version 3
+
+[33mcommit 6ddf9fe2b7c460e87c09ce49160e41076dd47a5d[m
+Merge: 58c21b3 103c519
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Fri Jul 31 16:22:32 2026 +0800
+
+    Merge pull request #33 from kozthh/pdf
+    
+    pdf
+
+[33mcommit 103c5199be1cb1949768dbb5d9838e7f7eed1104[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Fri Jul 31 08:21:20 2026 +0000
+
+    pdf
+
+[33mcommit 198f064444b4bcfdda12cb9d5435b4d3cdef98bd[m
+Author: Kenneth <kennethsaan16@gmail.com>
+Date:   Fri Jul 31 16:09:54 2026 +0800
+
+    ver2fullstack
+
+[33mcommit 58c21b383eedd84d61933bd4b1b30771c2692780[m
+Merge: 06a5bd0 de293ed
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Thu Jul 30 21:30:10 2026 +0800
+
+    Merge pull request #32 from kozthh/kozthh-patch-3
+    
+    Add files via upload
+
+[33mcommit de293ed3c7832ad76d3cbfdc08d89a195c156228[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Thu Jul 30 21:28:43 2026 +0800
+
+    Add files via upload
+
+[33mcommit 06a5bd09157a2d1fc99a0e3e0d885e108a194ca0[m
+Merge: 38bdeb2 0bd3e64
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Wed Jul 29 22:53:32 2026 +0800
+
+    Merge pull request #31 from kozthh/kozthh-patch-2
+    
+    Add files via upload
+
+[33mcommit 0bd3e6454500b785ce5617402ce1203421d2f57a[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Wed Jul 29 22:53:09 2026 +0800
+
+    Add files via upload
+
+[33mcommit 38bdeb277218453499ddb698e9392485e1591bc0[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Tue Jul 28 08:19:45 2026 +0000
+
+    major update
+
+[33mcommit 60ced034e01f2f8c16aacd0ed1f91bae17b895f5[m
+Merge: 3307f41 ecb892a
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Tue Jul 28 16:03:16 2026 +0800
+
+    Merge pull request #30 from kozthh/kozthh-patch-1
+    
+    Add files via upload
+
+[33mcommit ecb892a09d049396248ac92d371302f1993e0207[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Tue Jul 28 16:02:52 2026 +0800
+
+    Add files via upload
+
+[33mcommit 3307f41f099b722fe92971a8bda32ba4e1d57c42[m
+Merge: 3a76b10 77ba99d
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Mon Jul 27 11:29:52 2026 +0800
+
+    Merge pull request #29 from kozthh/kozthh-patch-5
+    
+    fixed the journal section
+
+[33mcommit 77ba99d696f78f9dea3837712449cd0feccc2af7[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Mon Jul 27 03:28:53 2026 +0000
+
+    fixed the journal section
+
+[33mcommit 3a76b108954b293a556025ad5c3264d4706bca9b[m
+Merge: fcc5eb7 70ed93e
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sun Jul 26 09:44:22 2026 +0800
+
+    Merge pull request #28 from kozthh/kozthh-patch-5
+    
+    Create Full-Stack Developer Study Roadmap
+
+[33mcommit 70ed93e6ac170fae69f021f09ac41bfe1f2f075b[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sun Jul 26 09:43:54 2026 +0800
+
+    Create Full-Stack Developer Study Roadmap
+    
+    Added a comprehensive full-stack developer study roadmap covering Java, Spring Boot, React, and more, with phases, projects, and goals.
+
+[33mcommit fcc5eb7a959e1664d70cfaad797c1a00b1a9d785[m
+Merge: ececfb3 5bc1e8d
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sat Jul 25 16:06:31 2026 +0800
+
+    Merge pull request #27 from kozthh/kozthh-patch-4
+    
+    Update learning.md
+
+[33mcommit 5bc1e8dfcaf62af464d022e22158522a8429f46a[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sat Jul 25 16:06:12 2026 +0800
+
+    Update learning.md
+
+[33mcommit ececfb3531cd8643fce1701bca471accc45eff93[m
+Merge: 73d8785 96ab740
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Fri Jul 24 22:11:06 2026 +0800
+
+    Merge pull request #26 from kozthh/kozthh-patch-3
+    
+    Update learning journal with recent studies and fixes
+
+[33mcommit 96ab740b82dca468514fca64d9c4dd09456b7c03[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Fri Jul 24 22:08:36 2026 +0800
+
+    Update learning journal with recent studies and fixes
+    
+    Added new entries about recent studies and projects, including a research on full stack development and updates on abstraction, encapsulation, inheritance, constructors, and polymorphism. Cleaned up the journal for better readability and consistency.
+
+[33mcommit 73d8785b0b34eea78f30edbea335f67d79459c13[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Fri Jul 24 22:08:15 2026 +0800
+
+    Update learning.md
+
+[33mcommit 1d145f57b44b0b0b4bc57d7b236192c62a301c7d[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Fri Jul 24 22:07:19 2026 +0800
+
+    Update learning journal with new entries and fixes
+    
+    Added new entries on learning progress and fixed various issues in the journal.
+
+[33mcommit 3977897a89eb6b49a61c262b5563646a0edc510d[m
+Merge: f1cb3aa 4662b9d
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Thu Jul 23 17:48:23 2026 +0800
+
+    Merge pull request #25 from kozthh/polymorphism
+    
+    logger
+
+[33mcommit 4662b9db08e4c73322d6824b6d5674881dbc7cd6[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Thu Jul 23 09:47:45 2026 +0000
+
+    logger
+
+[33mcommit f1cb3aae6383a3c4206a02dc5bbc89018f189071[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Tue Jul 21 22:21:52 2026 +0800
+
+    Update learning.md
+
+[33mcommit 5cdac7ad4611a6e32d78eb0ebbe1231eb4a90cf2[m
+Merge: ff316ff 05bcbc2
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Mon Jul 20 21:36:30 2026 +0800
+
+    Merge pull request #24 from kozthh/polymorphism
+    
+    Add polymorphism journal entry and project files
+
+[33mcommit 05bcbc28eb239bc981f426c140e615ec1acd208d[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Mon Jul 20 13:34:53 2026 +0000
+
+    Add polymorphism journal entry and project files
+
+[33mcommit ff316ff557a2266dbb00902be9f214ac8480c70a[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sat Jul 18 15:19:32 2026 +0000
+
+    fixes bugs cleaned repo
+
+[33mcommit b5463bfa365acca9b77d535e682ebe2f1d9284a4[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sat Jul 18 15:01:37 2026 +0000
+
+    renamed a file
+
+[33mcommit 05c83ec5832f02dd316a243594623e399b727ff1[m
+Merge: b9b27dd a0b4bc5
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Fri Jul 17 16:59:43 2026 +0800
+
+    Merge pull request #23 from kozthh/shapes
+    
+    shep area calculator
+
+[33mcommit a0b4bc5d23b56e5524e0e1017211d872a6e457e5[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Fri Jul 17 08:59:02 2026 +0000
+
+    shep area calculator
+
+[33mcommit b9b27ddd1d7fefd1385c242cea6992cf393d339b[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Thu Jul 16 18:46:56 2026 +0800
+
+    Update learning.md with new entries and corrections
+
+[33mcommit d4305e9cfbbe3611bf6953392c8a7bdcf7d6b2af[m
+Merge: 14c028b ed95251
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Thu Jul 16 18:45:00 2026 +0800
+
+    Merge pull request #22 from kozthh/fix-bugs
+    
+    polished previus and made notifications
+
+[33mcommit ed95251fc19842160c2b14d7293be6e8e531567b[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Thu Jul 16 10:13:42 2026 +0000
+
+    polished previus and made notifications
+
+[33mcommit 14c028b566b05fa4054388d4fc94fe0323df6b28[m
+Merge: df3df7d ac52e57
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Wed Jul 15 15:45:20 2026 +0800
+
+    Merge pull request #21 from kozthh/abstraction-projects
+    
+    did simple payment method
+
+[33mcommit ac52e572360190d52e6d90dcb6bea7f771b9b38d[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Wed Jul 15 07:43:16 2026 +0000
+
+    did simple payment method
+
+[33mcommit df3df7d6e9c1c9405fdc3b69235c70b3f48c983a[m
+Merge: 587dae3 c21d1e8
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Tue Jul 14 10:09:34 2026 +0800
+
+    Merge pull request #20 from kozthh/inheritance3
+    
+    polished
+
+[33mcommit c21d1e8d62209aa2a66bee76479895dd563b593d[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Tue Jul 14 02:08:11 2026 +0000
+
+    polished
+
+[33mcommit 587dae3deb752dc4f4d6f92d3e9c251a4f6462af[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Tue Jul 14 10:05:23 2026 +0800
+
+    Refactor learning journal entries for clarity
+
+[33mcommit 0661ee3b7b80aab4d12fa6dc51dbd8112bf08704[m
+Merge: 0bbc911 1f94fdd
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Tue Jul 14 09:51:52 2026 +0800
+
+    Merge pull request #19 from kozthh/inheritance3
+    
+    cardealership
+
+[33mcommit 1f94fdd3b2c2398a7183048e2b19da07f96b7bbc[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Tue Jul 14 01:50:53 2026 +0000
+
+    cardealership
+
+[33mcommit 0bbc911e36687326001ab030426120cc516e4e62[m
+Merge: 54c12e7 2342e69
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Mon Jul 13 23:01:21 2026 +0800
+
+    Merge pull request #18 from kozthh/inheritance3
+    
+    hello
+
+[33mcommit 2342e69ef498077293bb06269dcf55ca76f06365[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Mon Jul 13 15:00:23 2026 +0000
+
+    hello
+
+[33mcommit 54c12e76501ed6f50190ec9f6d4c144e8a900ace[m
+Merge: a26eed3 fda1d8b
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Tue Jul 7 23:25:28 2026 +0800
+
+    Merge pull request #17 from kozthh/kozthh-patch-2
+    
+    Add new entries and template to learning.md
+
+[33mcommit fda1d8b2b842e14a396869d51148f3a450a5de54[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Tue Jul 7 23:25:07 2026 +0800
+
+    Add new entries and template to learning.md
+
+[33mcommit a26eed3c85a355a0accbb992985678d5236a47fd[m
+Merge: ca62596 859f39e
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Mon Jul 6 23:48:38 2026 +0800
+
+    Merge pull request #16 from kozthh/inheritane-proj
+    
+    instatntiation
+
+[33mcommit 859f39eb92032ee5d49a211e3c34c1098086f36f[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Mon Jul 6 15:48:11 2026 +0000
+
+    instatntiation
+
+[33mcommit ca62596e752b9852bb115d89d33d9bcd625a2e3b[m
+Merge: 65b27c2 b7b36be
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sun Jul 5 00:06:34 2026 +0800
+
+    Merge pull request #14 from kozthh/constructors
+    
+    Merge pull request #13 from kozthh/main
+
+[33mcommit b7b36be6e8155d8520e68ca69fcde345092117ef[m
+Merge: d108db0 65b27c2
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sun Jul 5 00:04:14 2026 +0800
+
+    Merge pull request #13 from kozthh/main
+    
+    Merge pull request #12 from kozthh/constructors
+
+[33mcommit 65b27c268ba4a3e97fe5c96e337792cc654ea9ae[m
+Merge: f67b3aa d108db0
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sat Jul 4 23:55:11 2026 +0800
+
+    Merge pull request #12 from kozthh/constructors
+    
+    construtors
+
+[33mcommit d108db041e170557a96eedfd05c5680cbae15507[m
+Merge: 8651437 f67b3aa
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sat Jul 4 23:54:54 2026 +0800
+
+    Merge branch 'main' into constructors
+
+[33mcommit 86514370644c3f2738cb041790fb5da34c5483a2[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sat Jul 4 15:53:57 2026 +0000
+
+    construtors
+
+[33mcommit f67b3aaa771d2fda66e3552f9b7269e3ad430622[m
+Merge: 60c4504 af50a29
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Fri Jul 3 23:42:00 2026 +0800
+
+    Merge pull request #11 from kozthh/kozthh-patch-1
+    
+    Update learning journal with new entries and corrections
+
+[33mcommit af50a2995de271d294d1fd092037ef8e1ed57529[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Fri Jul 3 23:41:49 2026 +0800
+
+    Update learning journal with new entries and corrections
+
+[33mcommit 60c4504d73366c1797506e650d09ba22b8f9ca11[m
+Merge: 40926f2 82fef3b
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Fri Jul 3 23:37:52 2026 +0800
+
+    Merge pull request #10 from kozthh/constructors
+    
+    Constructors
+
+[33mcommit 82fef3beccdbad728b069b101580823a6ab7d1b3[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Fri Jul 3 15:37:16 2026 +0000
+
+    Constructors
+
+[33mcommit 40926f278708b73824f0b24314aa09cd2a8cd7db[m
+Merge: 0abb589 0169975
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Fri Jul 3 23:02:22 2026 +0800
+
+    Merge pull request #9 from kozthh/copilot/fix-prebuild-job-failure
+    
+    [WIP] Fix failing GitHub Actions job prebuild
+
+[33mcommit 0169975e7759b54c3026aadbd8c52624dfbbe80f[m[33m ([m[1;31morigin/copilot/fix-prebuild-job-failure[m[33m)[m
+Author: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>
+Date:   Fri Jul 3 15:01:11 2026 +0000
+
+    Initial plan
+
+[33mcommit 0abb589c336a3ebaa977b0266f531500bca3dee4[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Wed Jul 1 22:17:49 2026 +0800
+
+    Update learning.md
+
+[33mcommit 189402adcf6818c4ecdd13806ca981c06121b9fe[m
+Merge: 9c1a1a2 3c98086
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Wed Jul 1 22:11:55 2026 +0800
+
+    Merge pull request #8 from kozthh/animal-hiarachy
+    
+    Animal hiarachy
+
+[33mcommit 3c980866df28f94c3bb0e880062f83838df7e2c1[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Wed Jul 1 14:11:16 2026 +0000
+
+    simple inheritance project
+
+[33mcommit 85bae3d94006c73e23fba9176961aa049d14dde3[m
+Merge: 642dd43 9c1a1a2
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Tue Jun 30 23:21:07 2026 +0800
+
+    Merge pull request #7 from kozthh/main
+    
+    Merge pull request #6 from kozthh/animal-hiarachy
+
+[33mcommit 9c1a1a23c1d57cead8f56cd7cb4864c24f808d2c[m
+Merge: f666c1f 642dd43
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Tue Jun 30 23:20:37 2026 +0800
+
+    Merge pull request #6 from kozthh/animal-hiarachy
+    
+    Create devcontainer.json
+
+[33mcommit 642dd433de9124f96d0caa4c3f6affc7f2ebff7b[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Tue Jun 30 23:19:50 2026 +0800
+
+    Create devcontainer.json
+
+[33mcommit f666c1f0df8d28caf5dacc5fe5ad26832be21d83[m
+Merge: a2e521d 8bfa699
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Mon Jun 29 23:50:08 2026 +0800
+
+    Merge pull request #5 from kozthh/Student-grade-book
+    
+    made a temp converter
+
+[33mcommit 8bfa69974973f2e7f3cb6ca7052a9ed12928f65f[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Mon Jun 29 15:48:46 2026 +0000
+
+    made a temp converter
+
+[33mcommit a2e521dcfaef91d87af7daa1f0132ff205b7af78[m
+Merge: 6a1c640 fcc5781
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sat Jun 27 17:22:52 2026 +0800
+
+    Merge pull request #4 from kozthh/Student-grade-book
+    
+    Student grade book
+
+[33mcommit fcc5781654a6bb141d1c5727cc0070288a1dcd88[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sat Jun 27 09:20:38 2026 +0000
+
+    Student grade book
+
+[33mcommit 6a1c640d85f3479722e990a93cfd60ab284fcba0[m
+Merge: 3b4e889 303cf4e
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sat Jun 27 16:07:37 2026 +0800
+
+    Merge pull request #3 from kozthh/OOP
+    
+    Merge pull request #2 from kozthh/main
+
+[33mcommit 303cf4ec9c0ebbefe149ed94cccea7dce7ac043c[m
+Merge: 30affbc 3b4e889
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sat Jun 27 16:06:54 2026 +0800
+
+    Merge pull request #2 from kozthh/main
+    
+    Merge pull request #1 from kozthh/OOP
+
+[33mcommit 3b4e8890db9a55b8d3583d2a9cb1d7bee1c72247[m
+Merge: 3cdf376 30affbc
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Fri Jun 26 14:03:30 2026 +0800
+
+    Merge pull request #1 from kozthh/OOP
+    
+    Practiced encapsulation in simple projects
+
+[33mcommit 30affbc10e56908a8b69cdbc04acf26c813eace9[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Fri Jun 26 14:01:28 2026 +0800
+
+    Practiced encapsulation in simple projects
+
+[33mcommit 3cdf376e06dfa7954a78ac8f0dc2ab47ea955d5b[m
+Author: Kenneth Saan <kennethsaan16@gmail.com>
+Date:   Sat Apr 25 09:53:28 2026 +0800
+
+    Initial commit

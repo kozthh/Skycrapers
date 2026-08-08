@@ -117,8 +117,7 @@ Learning Journal
 ---
 
 ## Phase 0 — Java Foundations
-- (No dedicated entries yet) — plan: practice syntax, methods, compilation, small exercises.
-
+- August 8, 2026: Today I took care of my responsibilities, stayed productive, and ended the day feeling proud of myself for getting things done also did small excercises in loops.
 ---
 
 ## Git & GitHub Essentials
